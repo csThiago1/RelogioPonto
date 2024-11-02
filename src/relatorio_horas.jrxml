@@ -1,0 +1,36 @@
+<!-- Created with Jaspersoft Studio version 7.0.1.final using JasperReports Library version 7.0.1-573496633c2b4074e32f433154b543003f7d2498  -->
+<jasperReport name="Blank_A4_Landscape" language="java" pageWidth="842" pageHeight="595" orientation="Landscape" columnWidth="802" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="4ec34471-2c82-42ea-b2e2-6c54ca71d875">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<query language="sql"><![CDATA[]]></query>
+	<background splitType="Stretch"/>
+	<title height="35" splitType="Stretch">
+		<element kind="staticText" uuid="bbd82762-7737-486f-be8f-300e7f18c80e" x="0" y="0" width="800" height="35" fontSize="22.0" hTextAlign="Center">
+			<paragraph lineSpacingSize="2.0"/>
+			<text><![CDATA[RELATORIO - RELOGIO DE PONTO]]></text>
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<property name="com.jaspersoft.studio.unit.x" value="px"/>
+			<property name="com.jaspersoft.studio.unit.y" value="px"/>
+			<box topPadding="1" leftPadding="1" bottomPadding="1" rightPadding="1"/>
+		</element>
+		<element kind="textField" uuid="65fb35af-621e-4c3d-90ac-5410c6862ab1" x="610" y="0" width="191" height="31" pattern="MMMMM dd, yyyy">
+			<expression><![CDATA[new java.util.Date()]]></expression>
+		</element>
+	</title>
+	<columnHeader height="30" splitType="Stretch">
+		<element kind="staticText" uuid="422442c3-56f9-4368-9e16-32985bdb91fe" x="180" y="2" width="200" height="28" fontSize="16.0" hTextAlign="Center">
+			<text><![CDATA[DATA DE ENTRADA]]></text>
+		</element>
+		<element kind="staticText" uuid="18310555-d6b4-44a6-a5b4-f9237cc6f821" x="380" y="4" width="200" height="26" fontSize="16.0" hTextAlign="Center">
+			<text><![CDATA[DATA DE SAIDA]]></text>
+		</element>
+		<element kind="staticText" uuid="2a2101f7-3eca-487b-9928-45ff38d38cc2" x="580" y="2" width="220" height="28" fontSize="16.0" hTextAlign="Center">
+			<text><![CDATA[HORAS TRABALHADAS]]></text>
+		</element>
+		<element kind="staticText" uuid="62988a77-e0f7-4035-94ab-93260530554f" x="0" y="0" width="180" height="30" fontSize="16.0">
+			<text><![CDATA[	FUNCIONARIO]]></text>
+		</element>
+	</columnHeader>
+	<detail>
+		<band height="379" splitType="Stretch"/>
+	</detail>
+</jasperReport>
